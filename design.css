@@ -1,0 +1,67 @@
+/**
+ * CSS standard classes
+ *
+ * @author Henning Leutz (www.pcsg.de)
+ */
+
+/* Design
+ ========================================================================== */
+
+.box {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+}
+
+.relative {
+	position: relative;
+}
+
+/* border radius
+ ========================================================================== */
+.radius5 {
+	-webkit-border-radius: 5px;
+	 -khtml-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+.radius10 {
+    -webkit-border-radius: 10px;
+	 -khtml-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+}
+.radius20 {
+    -webkit-border-radius: 20px;
+	 -khtml-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	        border-radius: 20px;
+}
+
+/* opacity's
+ ========================================================================== */
+.opacity05 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	    filter: alpha(opacity=50);
+
+	  -moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	       opacity: 0.5;
+}
+
+/* smooth
+ ========================================================================== */
+.smooth {
+-webkit-transition: all 0.2s ease;
+   -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+     -o-transition: all 0.2s ease;
+}
+
+.smooth5 {
+-webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+}
+
