@@ -17,6 +17,14 @@
 	position: relative;
 }
 
+.flright {
+	float: right;
+}
+
+.flleft {
+	float: left;
+}
+
 /* border radius
  ========================================================================== */
 .radius5 {

@@ -1,0 +1,276 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>CSS-Helpers - Examples</title>
+
+	<link rel="stylesheet" href="design.css" />
+	<link rel="stylesheet" href="buttons.css" />
+	<link rel="stylesheet" href="tables/table.css" />
+	<link rel="stylesheet" href="tables/widths.css" />
+
+	<style>
+	h1 {
+		clear: both;
+	}
+
+	.radius-example {
+		height: 50px;
+		background-color: red;
+		color: #fff;
+	}
+
+	.smooth-example {
+		height: 50px;
+		background-color: red;
+		color: #fff;
+		cursor: pointer;
+	}
+	.smooth-example:hover {
+		background-color: black;
+		color: red;
+	}
+
+	</style>
+
+</head>
+<body>
+
+
+<h1>Design</h1>
+
+<table class="data-table w900">
+	<thead>
+		<tr>
+		    <th>CSS Class</th>
+		    <th>Description</th>
+	  </tr>
+	</thead>
+
+	<tbody>
+		<tr class="odd">
+			<td>.box</td>
+			<td>Set box-sizing to border-box, so you can use padding and margin in all browser without problems</td>
+		</tr>
+		<tr class="even">
+			<td>.relative</td>
+			<td>Set position:relative to the Element.</td>
+		</tr>
+		<tr class="odd">
+			<td>.flright</td>
+			<td>Set float:right to the Element.</td>
+		</tr>
+		<tr class="even">
+			<td>.flleft</td>
+			<td>Set float:left to the Element.</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h1>Radius</h1>
+<table class="data-table w900">
+	<thead>
+		<tr>
+		    <th>CSS Class</th>
+		    <th>Description</th>
+		    <th>Excample</th>
+	  </tr>
+	</thead>
+
+	<tbody>
+		<tr class="odd">
+			<td>.radius5</td>
+			<td>Set a border-radius of 5px</td>
+			<td>
+				<div class="radius5 w100 radius-example">
+					&nbsp;
+				</div>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>.radius10</td>
+			<td>Set a border-radius of 10px</td>
+			<td>
+				<div class="radius10 w100 radius-example">
+					&nbsp;
+				</div>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>.radius20</td>
+			<td>Set a border-radius of 20px</td>
+			<td>
+				<div class="radius20 w100 radius-example">
+					&nbsp;
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>Smooth</h1>
+<table class="data-table w900">
+	<thead>
+		<tr>
+		    <th>CSS Class</th>
+		    <th>Description</th>
+		    <th>Excample</th>
+	  </tr>
+	</thead>
+
+	<tbody>
+		<tr class="odd">
+			<td>.smooth</td>
+			<td>Set a transition of 0.2 sec</td>
+			<td>
+				<div class="smooth smooth-example">
+					Go over it!
+				</div>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>..smooth5</td>
+			<td>Set a transition of 0.5 sec</td>
+			<td>
+				<div class="smooth5 smooth-example">
+					Go over it!
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>CSS Buttons</h1>
+
+<table class="data-table w900">
+	<thead>
+		<tr>
+		    <th>Button</th>
+		    <th>Excample Input [type="button"]</th>
+		    <th>Excample Link (&lt;a href=""&gt;)</th>
+	  </tr>
+	</thead>
+
+	<tbody>
+		<tr class="odd">
+			<td>White Button</td>
+			<td>
+				<input type="button" class="button btn-white" value="white-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-white">
+					<span>white-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>Black Button</td>
+			<td>
+				<input type="button" class="button btn-black" value="black-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-black">
+					<span>black-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>Grey Button</td>
+			<td>
+				<input type="button" class="button btn-grey" value="grey-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-grey">
+					<span>grey-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>Grey Button</td>
+			<td>
+				<input type="button" class="button btn-grey" value="grey-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-grey">
+					<span>grey-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>Orange Button</td>
+			<td>
+				<input type="button" class="button btn-orange" value="orange-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-orange">
+					<span>orange-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>Red Button</td>
+			<td>
+				<input type="button" class="button btn-red" value="red-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-red">
+					<span>red-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>Blue Button</td>
+			<td>
+				<input type="button" class="button btn-blue" value="blue-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-blue">
+					<span>blue-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>Rosy Button</td>
+			<td>
+				<input type="button" class="button btn-rosy" value="rosy-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-rosy">
+					<span>rosy-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="odd">
+			<td>Green Button</td>
+			<td>
+				<input type="button" class="button btn-green" value="green-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-green">
+					<span>green-button</span>
+				</a>
+			</td>
+		</tr>
+		<tr class="even">
+			<td>Pink Button</td>
+			<td>
+				<input type="button" class="button btn-pink" value="pink-button" />
+			</td>
+			<td>
+				<a href="" class="button btn-pink">
+					<span>pink-button</span>
+				</a>
+			</td>
+		</tr>
+	</tbody>
+
+</table>
+
+
+
+</body>
+</html>

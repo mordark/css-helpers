@@ -1,0 +1,33 @@
+
+/* Data Table
+ ======================================================= */
+
+.data-table {
+	clear: both;
+	float: left;
+	margin: 10px 0 30px;
+	border-collapse: collapse;
+    font-size: 12px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.data-table th,
+.data-table-no-width th {
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+}
+
+.data-table td,
+.data-table-no-width td {
+    color: #666699;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.data-table .odd,
+.data-table-no-width .odd {
+    background: none repeat scroll 0 0 #E8EDFF;
+}
