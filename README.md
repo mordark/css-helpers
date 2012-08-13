@@ -1,4 +1,4 @@
 css-helpers
 ===========
 
-CSS class collection, helps with the daily work with css
+CSS class collection, small helpful  classes for the daily work with css
